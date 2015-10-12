@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<%@page import="java.util.*,dao.*,domain.*" %>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="/shopping/style.css">
+      <title>Navigation bar</title>
+   </head>
+
+   <body>
+      <%
+         Customer cust = (Customer) session.getAttribute("customer");
+      %>
+      
+      <% if (cust != null) {%>
+      <h2> Hi, <%=cust.getName()%> </h2>
+      <nav> 
+         <cho><a href="/shopping/index.jsp">Home</a></cho>
+         <cho><a href="/shopping/restricted/ViewProducts.jsp">View Products</a></cho>
+         <cho><a href="/shopping/restricted/CheckOut.jsp">Shopping Cart</a></cho>
+         <cho><a href="/shopping/LogoutServlet">Log Out</a></cho>
+
+         <% } else {%>
+        
+         <nav> <cho><a href="/shopping/logIn.jsp">Log In</a></cho>
+         <cho><a href="/shopping/AddCustomer.jsp">Create A New Account</a></cho>
+
+         <% }%></nav>
+   </body>
+</html>
