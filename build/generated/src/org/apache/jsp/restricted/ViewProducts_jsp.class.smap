@@ -1,0 +1,32 @@
+SMAP
+ViewProducts_jsp.java
+JSP
+*S JSP
+*F
++ 0 ViewProducts.jsp
+restricted/ViewProducts.jsp
++ 1 navigation.jspf
+WEB-INF/jspf/navigation.jspf
+*L
+5,17:56
+1#1,12:73
+13,2:86
+14,2:88
+16,2:90,3
+18,6:96
+24:102,3
+25,4:105
+29:109,3
+30,2:112
+21#0,4:114
+25,2:119
+26,15:121
+41:136,3
+42:139
+43,6:140,3
+49:158
+50:159,3
+51:162
+52:163,3
+53,11:166
+*E

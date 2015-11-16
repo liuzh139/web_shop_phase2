@@ -10,8 +10,8 @@ import org.h2.jdbcx.JdbcConnectionPool;
  */
 public class JdbcConnection {
 
+    //jdbc:h2:tcp://localhost/project/products
    private static final String url = "jdbc:h2:tcp://localhost/project/products";
-    
    private static final String username = "sa";
    private static final String password = "";
 

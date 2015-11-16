@@ -22,7 +22,7 @@
       <h1>Product List</h1>
 
       <%
-      Collection<Product> products = new ProductJdbcDAO().getAll();
+      Collection <Product> products = new ProductJdbcDAO().getAll();
        %>
       <table border ="1">
       <thead>
